@@ -1,0 +1,42 @@
+/* .juega-de-nuevo {
+  position: relative;
+  float: left;
+  display: flex;
+  z-index: 2;
+  vertical-align: middle;
+  justify-content: center;
+  width: 878px;
+  height: 625px;
+  display: flex;
+  margin: 0px;
+  margin-top: 310px;
+}
+*/
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding:0px;
+}
+.hidden{
+  display: none;
+}
+
+.contenedor-botones{
+  margin-left: calc(50vw - 125px);
+  margin-top: calc(50vh - 125px);
+  position: absolute;
+      width: 20%;
+}
+
+.contenedor-botones button{
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.canvas-css{
+  text-align: center;
+  background: black;
+}
